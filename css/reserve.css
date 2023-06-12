@@ -1,0 +1,97 @@
+.wf-notosansjapanese { font-family: "Noto Sans JP"; }
+.col{
+  margin-top: 20px;
+  /* max-width: 200px;
+  min-width: 200px; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h3{
+  font-size: x-large;
+  text-align: center;
+  padding: 5px 0 5px 25px;
+  color: #333333;
+}
+.p-0 .bd-highlight{
+  /* min-width: 180px;
+  max-width: 180px; */
+  margin-right: 15px;
+  padding:0;
+}
+/* time-schedule */
+.p-0 .time-schedule {
+  list-style: none;
+  margin: 0 auto 0 6em;
+  padding-left: 20px;
+  border-left: 6px solid #6fc5e7;
+  box-sizing: border-box;
+}
+
+.p-0 .time-schedule li {
+  width: 100%;
+  margin: 0 0;
+  padding: 5px 0;
+  position: relative;
+}
+
+.p-0 .time-schedule span.time {
+  width: 5em;
+  display: inline-block;
+  margin-left: -8em;
+  padding: 0 0 5px;
+  margin-top: 15px;
+  vertical-align: top;
+  position: relative;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.p-0 .time-schedule span.time::after {
+  content: "";
+  position: absolute;
+  right: -35px;
+  top: 0;
+  background: #a7be18;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.time-schedule .sch_box {
+  display: inline-block;
+  width: 150px;
+  margin-left: 30px;
+  padding: 15px 10px 15px 10px;
+  vertical-align: middle;
+  background: #e0f1ff;
+  box-sizing: border-box; 
+  border-radius: 6px;
+}
+
+.p-0 .time-schedule .sch_title {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+div ul li p a{
+  color:black;
+}
+div ul li p a:link{
+  text-decoration: none;
+}
+
+div ul li p a:hover,a:active{
+  opacity: .7;
+}
+
+.triangle{
+  color: #df4721
+}
+.ng{
+  opacity: .5;
+}
