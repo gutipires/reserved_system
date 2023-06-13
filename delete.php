@@ -1,3 +1,7 @@
+<!-- 
+予約削除の処理専用ページ
+指定したIDで予約があるかをSQLから検索して予約があれば削除する仕様
+-->
 <?php 
   session_start();  
   require_once('read.php');

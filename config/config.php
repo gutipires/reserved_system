@@ -1,3 +1,8 @@
+<!-- 
+本アプリケーションの主設定ページ
+現在の設定状況を表示
+ -->
+
 <?php 
 session_start();
 require_once('../read.php');

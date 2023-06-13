@@ -1,3 +1,7 @@
+<!-- 
+予約状況を件数で表示
+件数をクリックすることで予約を確認することができる
+ -->
 <?php 
 session_start();
 session_regenerate_id();

@@ -1,3 +1,6 @@
+<!-- 
+functionを集約
+-->
 <?php 
 // htmlspecialchars設定
 function h($val){

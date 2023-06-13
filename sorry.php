@@ -1,3 +1,8 @@
+<!-- 
+工事中
+予約中に予約が埋まった場合のページ
+ -->
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>

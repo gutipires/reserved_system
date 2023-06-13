@@ -1,3 +1,8 @@
+<!-- 
+予約完了ページ
+予約内容を表示。
+ -->
+
 <?php 
 session_start();
 require_once('read.php');
